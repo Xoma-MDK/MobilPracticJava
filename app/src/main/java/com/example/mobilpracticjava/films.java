@@ -31,7 +31,7 @@ public class films extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_theatre);
+        setContentView(R.layout.activity_films);
         tvInfo = (TextView) findViewById(R.id.tvInfo);
         tvInfo.setTextColor(Color.WHITE);
         tvName = (EditText) findViewById(R.id.editTextTextPersonName);
