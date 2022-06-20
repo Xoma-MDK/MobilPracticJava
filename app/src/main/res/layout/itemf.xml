@@ -13,6 +13,7 @@ android:orientation="horizontal">
     android:minHeight="40dp"
     android:textSize="20sp"
     android:maxLength="20"
+    android:textColor="@color/white"
     android:text="">
 </TextView>
 <TextView
@@ -21,7 +22,7 @@ android:orientation="horizontal">
     android:gravity="center_vertical"
     android:minHeight="40dp"
     android:textSize="20sp"
-    android:text="     ">
+    android:text="  ">
 </TextView>
 
 <TextView
@@ -32,6 +33,7 @@ android:orientation="horizontal">
     android:minHeight="40dp"
     android:textSize="20sp"
     android:maxLength="20"
+    android:textColor="@color/white"
     android:text="">
 </TextView>
 <TextView
@@ -40,7 +42,7 @@ android:orientation="horizontal">
     android:gravity="center_vertical"
     android:minHeight="40dp"
     android:textSize="20sp"
-    android:text="     ">
+    android:text="  ">
 </TextView>
 
 <TextView
@@ -50,7 +52,7 @@ android:orientation="horizontal">
     android:gravity="center_vertical"
     android:minHeight="40dp"
     android:textSize="20sp"
-
+    android:textColor="@color/white"
     android:text="">
 </TextView>
 

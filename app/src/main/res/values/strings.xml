@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MobilPracticJava</string>
+    <string name="app_name">Моё кино</string>
     <string name="search_theatre">Найти кинотеатр</string>
     <string name="start">Старт</string>
     <string name="search_film">Найти фильм</string>

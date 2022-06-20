@@ -3,6 +3,7 @@ package com.example.mobilpracticjava;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.JsonReader;
@@ -41,6 +42,7 @@ public class newfilm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newfilm);
         tvInfo = (TextView) findViewById(R.id.tvInfo);
+        tvInfo.setTextColor(Color.WHITE);
         tvName = (EditText) findViewById(R.id.editTextTextPersonName);
         lvMain = (ListView) findViewById(R.id.lvMain);
         lvMain.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);

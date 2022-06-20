@@ -2,6 +2,7 @@ package com.example.mobilpracticjava;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ public class newtheatre extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newtheatre);
         tvInfo = (TextView) findViewById(R.id.tvInfo);
+        tvInfo.setTextColor(Color.WHITE);
         tvName = (EditText) findViewById(R.id.editTextTextPersonName);
         tvAddress = (EditText) findViewById(R.id.editTextTextPersonAddress);
     }
